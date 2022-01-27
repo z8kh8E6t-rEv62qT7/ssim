@@ -29,11 +29,11 @@ include(GNUInstallDirs)
 ###################################################################################################
 # Options
 
-option(RMGR_SSIM_USE_DOUBLE   "Whether to use double instead of float for increased precision (but slower)" OFF)
-option(RMGR_SSIM_USE_OPENMP   "Whether to use OpenMP for multi-threaded processing"                         OFF)
-option(RMGR_SSIM_BUILD_CLI    "Whether to build the command line interface"                                 OFF)
-option(RMGR_SSIM_BUILD_SAMPLE "Whether to build the sample program "                                        OFF)
-option(RMGR_SSIM_BUILD_TESTS  "Whether to build rmgr::ssim's unit tests"                                    OFF)
+option(RMGR_SSIM_USE_DOUBLE   "Whether to use double instead of float for increased precision (but slower)" ON)
+option(RMGR_SSIM_USE_OPENMP   "Whether to use OpenMP for multi-threaded processing"                         ON)
+option(RMGR_SSIM_BUILD_CLI    "Whether to build the command line interface"                                 ON)
+option(RMGR_SSIM_BUILD_SAMPLE "Whether to build the sample program "                                        ON)
+option(RMGR_SSIM_BUILD_TESTS  "Whether to build rmgr::ssim's unit tests"                                    ON)
 
 set(RMGR_SSIM_COMPILE_OPTIONS)
 set(RMGR_SSIM_DEFINITIONS)
